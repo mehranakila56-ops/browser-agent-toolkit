@@ -1,0 +1,39 @@
+{
+  "name": "browser-agent-toolkit",
+  "version": "0.1.0",
+  "description": "Utilities and helpers for building reliable AI browser agents",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test:coverage": "jest --coverage",
+    "build": "tsc",
+    "lint": "eslint src/"
+  },
+  "keywords": ["browser-automation", "ai-agents", "puppeteer", "playwright", "mcp", "browser", "automation"],
+  "author": "mehranakila56-ops",
+  "license": "MIT",
+  "peerDependencies": {
+    "puppeteer-core": ">=21.0.0",
+    "playwright": ">=1.40.0"
+  },
+  "peerDependenciesMeta": {
+    "puppeteer-core": { "optional": true },
+    "playwright": { "optional": true }
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehranakila56-ops/browser-agent-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mehranakila56-ops/browser-agent-toolkit/issues"
+  }
+}
